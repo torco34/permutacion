@@ -1,10 +1,8 @@
+let fruta = ["manzana", "jueves", "mango", "marte"]
+fruta.sort();
 
-let lista = [9, 6, 8,1,3,4,]
-lista.sort(function(a, b){
-	return a - b;
+console.log(`${fruta}`)
 
-
-})
- document.getElementById('pantalla').innerHTML = lista
-console.log(lista)
-console.log(`${lista}`)
+console.log(fruta)
+console.log('original:', fruta.join());
+console.log('ordenado sin función:', fruta.sort());
