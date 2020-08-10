@@ -1,11 +1,50 @@
-let fruta = ["manzana", "jueves", "mango", "marte"]
-fruta.sort();
+let arr = [3, 2, 1, 5, 6, 7, ]
 
-console.log(`${fruta}`)
+function torco() {
+    a = arr[1]
+    b = arr[2]
+    c = arr[3]
+    d = arr[4]
+    // e = arr[5]
+    console.log(`${b}, ${c}, ${d},${a}, 'estena vale'`)
+    if (a > b && a > c && a > d && b > c && b > d && c > d) {
+        // b es mayor jm 1 7 5 4 3 2 
+        console.log(`${d}, ${c}, ${b},${a},`)
+    } else if (a < b && c > d && b > c) {
+        //de menor a mayor 1,2,3,4,5, copia
+        console.log(` ${a}, ${d},${c}, ${b},`)
+    } else if (b > a && c > a && a > b) {
+        //de menor a mayor 1,2,3,4,5,
+        console.log(` ${a}, ${c}, ${d},${b}`)
+    } else if (a < b && c < d && a > d) {
+        // no entiendo  sale 2 9 1 2 3 4 5 
+        console.log(`${c}, ${d}, ${a},${b}, `)
+    } else if (a > b && bc) {
+        console.log(`${b}, ${c}, ${d},${a}, `)
+    } else if (a < b && b < d && a < c) {
+        //de menor a mayor 2,8,9,4,5,
+        console.log(` ${a}, ${b},${c}, ${d},`)
+        // 4,5,9,6,7,8,
+    } else if (a < b && c < b) {
+        console.log(` ${a}, ${c},${d}, ${b},`)
+    } else if (a > b) {
+        console.log(` ${a}, ${b},${c}, ${d},`)
+    }
+}
+// console.log(`${b}, ${c}, ${d},${a},`)
+// console.log(`${b}, ${c}, ${d},${a},`)
+torco()
 
-console.log(fruta)
-console.log('original:', fruta.join());
-console.log('ordenado sin función:', fruta.sort());
+
+
+
+
+
+
+
+
+
+
 
 //con cuatro numeros
 
